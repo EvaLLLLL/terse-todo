@@ -9,8 +9,14 @@
   "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "commander": "3.0.2",
     "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
   }
 }

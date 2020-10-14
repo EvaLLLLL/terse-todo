@@ -22,6 +22,7 @@ const db = {
 			const string = JSON.stringify(list)
 			fs.writeFile(path, string + '\n', (error) => {
 				if (error) return reject(error)
+				resolve()
 			})
 		})
 	}
